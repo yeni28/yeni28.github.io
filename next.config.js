@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const debug = process.env.NODE_ENV !== 'production';
-const repository = 'http://yeni28.github.io/yeni28.github.io';
+const repository = 'http://yeni28.github.io/';
 const nextConfig = {
   reactStrictMode: true,
   assetPrefix: !debug ? `/${repository}/` : '', // production 일때 prefix 경로

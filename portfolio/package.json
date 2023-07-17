@@ -2,7 +2,7 @@
     "name": "frontend",
     "version": "0.1.0",
     "private": true,
-    "homepage": "http://yeni28.github.io/yeni28.github.io",
+    "homepage": "http://yeni28.github.io/",
     "scripts": {
         "dev": "next dev",
         "build": "next build",

@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --foreground-rgb: 0, 0, 0;
+    --background-start-rgb: 214, 219, 220;
+    --background-end-rgb: 255, 255, 255;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --foreground-rgb: 255, 255, 255;
+      --background-start-rgb: 0, 0, 0;
+      --background-end-rgb: 0, 0, 0;
+    }
+  }
+
+
+  
+  body {
+    color: rgb(var(--foreground-rgb));
+    background:#f4f4f4;
+  }
+  
+  @font-face{
+    font-family: 'NanumNeo';
+    src: url('../../public/font/NanumSquareNeo-bRg.ttf') format('truetype') ,       local('NanumNeo');
+  
+  }
+  
+  @font-face{
+    font-family: 'NanumNeoLt';
+    src: url('../../public/font/NanumSquareNeo-aLt.ttf') format('truetype') ,       local('NanumNeoLt');
+  
+  }
+  @font-face{
+    font-family: 'NanumNeoEB';
+    src: url('../../public/font/NanumSquareNeo-dEb.ttf') format('truetype') ,       local('NanumNeoEB');
+  
+  }
+  
+  @font-face {
+    font-family: 'Pretendard-Bold';
+    src: url('../../public/font/Pretendard-Bold.ttf')format('truetype') ,       local('Pretendard-Bold')
+  }
+  @font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('../../public/font/Pretendard-Regular.ttf')format('truetype') ,       local('Pretendard-Regular');
+  }
+  @font-face {
+    font-family: 'Pretendard-SemiBold';
+    src: url('../../public/font/Pretendard-SemiBold.ttf')format('truetype') ,       local('Pretendard-SemiBold');
+  }
+  @font-face {
+    font-family: 'thefaceshop';
+    src: url('../../public/font/THEFACESHOP\ INKLIPQUID.ttf')format('truetype') ,       local('thefaceshop');
+  }

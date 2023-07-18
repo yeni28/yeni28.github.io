@@ -24,4 +24,4 @@ jobs:
       - name: Run deploy script
         run: ./deploy.sh
         env:
-          REPOSITORY_NAME: "<repository-name>"
+          REPOSITORY_NAME: "yeni28.github.io"

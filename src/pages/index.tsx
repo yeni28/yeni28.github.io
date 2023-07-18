@@ -28,7 +28,7 @@ export default function Home() {
   const transitionDuration = '1s';
   return (
     <div className="h-[50rem] w-auto ">
-      <img src={`${prefix}/image/computer.jpg`} alt="bg" className="absolute top-0 left-0 " />
+      <img src="https://yeni28.github.io/yeni28.github.io/Image/computer.jpg" alt="bg" className="absolute top-0 left-0 " />
 
       <div className="font-PreB">
         <div className={`text-[4rem] left-1/2  transform -translate-x-1/2  z-30 absolute text-white top-[60%] transition duration-300 ease-in-out`} style={{ opacity: `${opacity1}` }}>

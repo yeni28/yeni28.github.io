@@ -1,22 +1,24 @@
-// pages/_document.tsx 파일
 import Document, { Html, Head, Main, NextScript, DocumentContext } from 'next/document';
-class MyDocument extends Document {
-    static async getInitialProps(ctx: DocumentContext) {
-        const initialProps = await Document.getInitialProps(ctx);
-        return { ...initialProps };
-    }
 
-    render() {
-        return (
-            <Html lang="ko">
-                <Head />
-                <body>
-                    <Main />
-                    <NextScript />
-                </body>
-            </Html>
-        );
-    }
+class MyDocument extends Document {
+  static async getInitialProps(ctx: DocumentContext) {
+    const initialProps = await Document.getInitialProps(ctx);
+    return { ...initialProps };
+  }
+
+  render() {
+    return (
+      <Html lang="ko">
+        <Head>
+          <link rel="stylesheet" href="/_next/static/css/c44e2a88a0e0fab2.css" />
+        </Head>
+        <body>
+          <Main />
+          <NextScript />
+        </body>
+      </Html>
+    );
+  }
 }
 
 export default MyDocument;

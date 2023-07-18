@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styles from './profile.module.css';
 import ButtonTag from '@/components/Button/ButtonTag';
+import { prefix } from '@/components/config/config';
 
 interface PhotoProp {
   index: number;
@@ -17,7 +18,7 @@ function page() {
 
   return (
     <div className="flex h-full w-auto ">
-      <img src="/image/background.jpg" alt="bg" className="absolute top-0 left-0 w-full h-full object-cover" />
+      <img src={`${prefix}/image/background.jpg`} alt="bg" className="absolute top-0 left-0 w-full h-full object-cover" />
       <div className="grid grid-cols-5 mx-10 mt-[5rem] gap-10">
         <div
           className="relative w-full h-[34.1rem] z-10  mt-[8rem] bg-[#ffffffd3] px-10 py-10 rounded-3xl "

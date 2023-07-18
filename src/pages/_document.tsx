@@ -9,9 +9,7 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="ko">
-        <Head>
-          <link rel="stylesheet" href="_next/static/css/c44e2a88a0e0fab2.css" />
-        </Head>
+        <Head></Head>
         <body>
           <Main />
           <NextScript />

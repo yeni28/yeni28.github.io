@@ -10,7 +10,7 @@ class MyDocument extends Document {
     return (
       <Html lang="ko">
         <Head>
-          <link rel="stylesheet" href="/_next/static/css/c44e2a88a0e0fab2.css" />
+          <link rel="stylesheet" href="_next/static/css/c44e2a88a0e0fab2.css" />
         </Head>
         <body>
           <Main />

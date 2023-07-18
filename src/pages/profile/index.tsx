@@ -56,16 +56,12 @@ function page() {
                   </p>
                   <p className="text-[1rem] font-NanumNeo ">웹 디자인 및 웹 기획</p>
                 </div>
-                <p className={`${styles.element} text-[1.4rem] font-NanumNeo hover:font-bold hover:cursor-pointer`} onClick={() => handleItemClick({ index: 3, image: '/image/ebs.png' })}>
-                  EBS 홍보부 계약직
-                </p>
-                <p className="text-[1rem] font-NanumNeo ">사내/외 홍보 콘텐츠 기획 및 제작</p>
               </div>
             </div>
             {/* 수상 */}
             <div className="mb-10">
               <p className={`${styles.semititle}`}>수상</p>
-              <p className={`${styles.element} mt-3 text-[1.4rem] font-NanumNeo hover:font-bold hover:cursor-pointer`} onClick={() => handleItemClick({ index: 4, image: '/image/reward.jpg' })}>
+              <p className={`${styles.element} mt-3 text-[1.4rem] font-NanumNeo hover:font-bold hover:cursor-pointer`} onClick={() => handleItemClick({ index: 3, image: '/image/reward.jpg' })}>
                 삼성 청년 SW 아카데미 자율 프로젝트 우수상
               </p>
             </div>

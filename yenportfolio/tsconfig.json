@@ -22,6 +22,6 @@
         },
     },
     "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src",
-    "vite.config.ts" ],
+    "vite.config.ts" , "postcss.config.js"],
     "exclude": ["node_modules"]
 }
